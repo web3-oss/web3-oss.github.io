@@ -1,8 +1,7 @@
 # web3-oss.github.io
 
 # To Dos
-# 1. protect main branch
-# 2. dev branch as default branch 
-# 3. Do we need testing branch ?
-# 4. add frontend folder
-# 5. test github webpageg
+# 1. protect main branch -> Create Rules discuss with Puru
+# 2. Do we need testing branch ? Puru
+# 3. add frontend folder
+# 4. test github webpage
