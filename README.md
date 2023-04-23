@@ -93,11 +93,3 @@ This work is published under [MIT][mit] License.
 [jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
 [donation]: https://sponsor.cotes.page/
 [mit]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-
-# web3-oss.github.io
-
-# To Dos
-# 1. protect main branch -> Create Rules discuss with Puru
-# 2. Do we need testing branch ? Puru
-# 3. add frontend folder
-# 4. test github webpage
