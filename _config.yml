@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-#baseurl: ""
+baseurl: ""
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -18,12 +18,12 @@ timezone: Europe/Berlin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: web3-oss # the main title
+title: web3-oasis # the main title
 
 tagline: Open soruce softwres for web3 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  We are building series of open source softwares for web3. 
+  We are building series of open source softwares and apps for web3 community. 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://web3-oss.github.io"
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/avatar/crypto_punk.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
