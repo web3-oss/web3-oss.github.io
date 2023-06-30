@@ -1,0 +1,12 @@
+---
+title: Ethreum gas
+date: 2023-06-30 12:00:00 +0200
+categories: [web3, software]
+tags: [web3, oasis, intro, oss]     # TAG names should always be lowercase
+---
+
+
+## Ethereum gas
+
+Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
+
