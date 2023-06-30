@@ -10,3 +10,5 @@ tags: [web3, oasis, intro, oss]     # TAG names should always be lowercase
 
 Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
 
+> Ethereum gas price are high.
+{: .prompt-warning }
