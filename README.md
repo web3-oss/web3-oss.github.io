@@ -11,8 +11,9 @@ URL: https://chirpy.cotes.page/
 URL: https://web3-oss.github.io/
 
 ## Developer
-01: Drakeshot10559
-02: jrv07
+01: Drakeshot10559 \n
+02: jrv07 \n
+03: thememebuilder
 
 ## License
 
