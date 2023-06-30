@@ -1,11 +1,12 @@
 ---
-title: Introducing the web3-oasis org
-date: 2023-06-30 12:00:00 -500
-categories: [web3, introduction]
-tags: [web3, oasis, into]     # TAG names should always be lowercase
+title: web3-oasis org
+date: 2023-06-30 12:00:00 +0200
+categories: [web3, software]
+tags: [web3, oasis, intro, oss]     # TAG names should always be lowercase
 ---
 
-# Introducing web3-oasis org
+
+# Welcome
 
 web3-oasis is an organization commited to build open source softwares and apps for the web3 community. 
 
@@ -18,3 +19,5 @@ it is an app build for the smartphone users to get the quick gas price feed to c
 ## Ethereum gas
 
 Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
+
+
