@@ -1,8 +1,8 @@
 ---
-title: Ethreum (ETH)
+title: Gas on Ethreum (ETH)
 date: 2023-06-30 12:00:00 +0200
 categories: [web3, software]
-tags: [web3, oasis, intro, oss]     # TAG names should always be lowercase
+tags: [blockchain, gas, ethreum]     # TAG names should always be lowercase
 ---
 
 

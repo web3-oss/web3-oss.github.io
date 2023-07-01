@@ -1,8 +1,8 @@
 ---
-title: Polygon (MATIC)
+title: Gas on Polygon (MATIC)
 date: 2023-06-30 12:00:00 +0200
 categories: [web3, software]
-tags: [web3, oasis, intro, oss]     # TAG names should always be lowercase
+tags: [blockchain, gas, polygon, matic]     # TAG names should always be lowercase
 ---
 
 
