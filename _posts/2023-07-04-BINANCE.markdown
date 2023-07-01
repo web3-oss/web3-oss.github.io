@@ -1,8 +1,8 @@
 ---
-title: Binance smart chain (BSC)
+title: Gas on Binance smart chain (BSC)
 date: 2023-06-30 12:00:00 +0200
 categories: [web3, software]
-tags: [web3, oasis, intro, oss]     # TAG names should always be lowercase
+tags: [blockchain, gas, binance, bnb, bsc]     # TAG names should always be lowercase
 ---
 
 
