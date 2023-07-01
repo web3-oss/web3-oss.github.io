@@ -6,6 +6,7 @@ githubpage
 
 ## CHIRPY Documentation
 URL: https://chirpy.cotes.page/
+URL: https://www.markdownguide.org/tools/jekyll/
 
 ## webpage
 URL: https://web3-oss.github.io/
