@@ -1,5 +1,5 @@
 ---
-title: Gas on Binance smart chain (BSC)
+title: Binance smart chain
 date: 2023-06-30 12:00:00 +0200
 categories: [blockchain, web3]
 tags: [binance, bnb, bsc, gas]     # TAG names should always be lowercase
@@ -8,7 +8,30 @@ tags: [binance, bnb, bsc, gas]     # TAG names should always be lowercase
 
 ## Binance smart chain Gas
 
-Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
+A fee denominated in small fractions of ETH required to conduct a transaction on the open-source Ethereum blockchain.
 
-> Ethereum gas price are high.
+The Ethereum gas fee exists to pay network validators for their work securing the blockchain and network.
+
+Eth gas = gas units(limit) x (base fee + tip or priority fee)
+
+The ether gas limit refers to the maximum amount of gas a user can consume to conduct a transaction.The standard limit on an Ethereum gas fee is 21,000 units.
+
+Base fee acts as a reservation price to include transaction in the block. When the block is mined the base fee is ‘burned’🔥, removing it from circulation.
+
+Base fee (max) for next block= Base fee (current) * 12.5%
+
+With every block the base fee getting burned, a priority fee (tip) introduced via EIP-1559 to incentivize miners for including a transaction in the block.
+
+Based upon Network congestion, the minimum cost to send transaction on Ethereum blockchian varies.
+
+> Transaction cost on Ethreum network.
+{: .prompt-info }
+
+> when network is not busy, Gas cost is low. 
+{: .prompt-tip }
+
+> when network is busy, Gas cost is medium.
 {: .prompt-warning }
+
+> when network is very busy, Gas cost is high.
+{: .prompt-danger }
