@@ -2,11 +2,11 @@
 title: Gas on Polygon (MATIC)
 date: 2023-06-30 12:00:00 +0200
 categories: [blockchain, web3]
-tags: [polygon, matic]     # TAG names should always be lowercase
+tags: [polygon, matic, gas]     # TAG names should always be lowercase
 ---
 
 
-## Ethereum gas
+## Polygon Gas
 
 Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
 

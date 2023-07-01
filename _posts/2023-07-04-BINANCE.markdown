@@ -2,11 +2,11 @@
 title: Gas on Binance smart chain (BSC)
 date: 2023-06-30 12:00:00 +0200
 categories: [blockchain, web3]
-tags: [binance, bnb, bsc]     # TAG names should always be lowercase
+tags: [binance, bnb, bsc, gas]     # TAG names should always be lowercase
 ---
 
 
-## Ethereum gas
+## Binance smart chain Gas
 
 Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
 
