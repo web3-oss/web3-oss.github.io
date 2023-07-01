@@ -1,14 +1,36 @@
 ---
-title: GAS / Transaction cost on Blockchain
+title: GAS
 date: 2023-06-30 12:00:00 +0200
-categories: [web3, software]
-tags: [ethreum, gas, app]     # TAG names should always be lowercase
+categories: [blockchain, gas]
+tags: [transaction, gas, fees]     # TAG names should always be lowercase
 ---
 
+Blockchain technology has revolutionized the way we transact and interact in the digital world. It has introduced a decentralized and transparent system that eliminates the need for intermediaries and ensures data integrity. However, to ensure the smooth functioning and security of blockchain networks, a concept called "gas" comes into play.
 
-## Ethereum gas
+Gas is a fundamental concept in blockchain that serves as a measure of computational effort required to execute operations or transactions on the network. It plays a crucial role in maintaining the efficiency, security, and fairness of blockchain systems. In this article, we will delve into the concept of gas and explore its significance in the blockchain ecosystem.
 
-Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
+## What is Gas?
+In simple terms, gas represents the cost associated with executing operations on a blockchain. Whether it's sending a transaction, deploying a smart contract, or executing a function within a smart contract, each action consumes a certain amount of computational resources. Gas is the unit that measures and prices these resources, acting as a fee for utilizing the blockchain network's computing power.
 
-> Ethereum gas price are high.
-{: .prompt-warning }
+## How Does Gas Work?
+Every operation on a blockchain network requires a specific amount of gas to be executed. Gas is denoted in fractions of Ether (ETH) on the Ethereum blockchain, but other blockchains may have their own native tokens or units to represent gas.
+
+When a user initiates a transaction or executes a smart contract function, they include a gas limit and a gas price. The gas limit defines the maximum amount of gas they are willing to consume for the operation, while the gas price determines the cost per unit of gas. Multiplying the gas limit by the gas price gives the total cost in the blockchain's native currency.
+
+## Gas Usage and Cost Efficiency
+Each operation or instruction within a transaction consumes a predefined amount of gas. Simple operations like adding numbers or updating variables require less gas compared to complex computations or storage operations. Gas usage directly impacts the cost and time required to complete a transaction or execute a smart contract.
+
+Developers strive to optimize gas usage by writing efficient code and minimizing unnecessary computations or storage operations. By optimizing gas usage, users can reduce the cost of their transactions, making blockchain technology more accessible and economically viable.
+
+## Gas and Network Congestion
+In times of high network activity or congestion, users may experience delays or higher gas prices. Gas acts as a mechanism to prioritize transactions by allowing users to bid on the limited computational resources of the network. When the network is congested, users willing to pay a higher gas price are more likely to have their transactions processed quickly.
+
+This mechanism ensures the fair allocation of network resources and discourages spam or malicious activities by imposing a cost. It incentivizes users to prioritize important transactions while discouraging inefficient use of the network.
+
+## Gas Limit and Out-of-Gas Errors
+The gas limit set by users ensures that an operation does not consume more gas than expected. If an operation exceeds the gas limit, it will fail, resulting in an "out-of-gas" error. This prevents infinite loops, denial-of-service attacks, and other potential security risks by imposing an upper bound on computational resources.
+
+## Conclusion
+Gas is a vital concept in the blockchain ecosystem, enabling the efficient execution of operations while ensuring network security and fairness. It acts as a fee for computational resources and incentivizes users to optimize their code for cost efficiency. By understanding gas and its significance, users can navigate the blockchain landscape more effectively and make informed decisions regarding transaction costs and network usage.
+
+As blockchain technology continues to evolve, gas remains a fundamental aspect that empowers the decentralized and secure nature of these networks. Embracing and optimizing gas usage will contribute to the scalability, accessibility, and sustainability of blockchain systems, paving the way for a more inclusive and efficient digital future.

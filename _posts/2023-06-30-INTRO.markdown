@@ -1,24 +1,30 @@
 ---
-title: web3-oasis org
+title: Welcome
 date: 2023-06-30 12:00:00 +0200
-categories: [web3, software]
+categories: [web3, organization]
 tags: [web3, org, intro, company]     # TAG names should always be lowercase
 pin: true
 ---
 
 
-# Welcome
+At Web3-Oasis, we are dedicated to harnessing the potential of blockchain technology for the greater good of the community. We are an organization committed to building open-source software and mobile apps that empower individuals and revolutionize the way we interact with the blockchain ecosystem.
 
-web3-oasis is an organization commited to build open source softwares and apps for the web3 community. 
+## Our Vision
+Our vision is to create a vibrant and inclusive blockchain community where transparency, security, and decentralization are the driving forces. We believe in the power of technology to democratize access to financial services, promote social impact, and foster innovation. By developing cutting-edge open-source software and mobile apps, we aim to unlock the full potential of blockchain and facilitate its adoption on a global scale.
 
-This is an attempt to build series of ios/android apps and web3 softwares to provide service to web3 builders and users. 
+## Our Mission
+Our mission is to provide the blockchain community with high-quality, user-friendly, and innovative software solutions. We are passionate about developing open-source software and mobile apps that address the needs and challenges of the blockchain ecosystem. Through our work, we strive to enhance security, scalability, and usability, ensuring that blockchain technology is accessible to individuals from all walks of life.
 
-## Benzin
+## Key Principles
 
-it is an app build for the smartphone users to get the quick gas price feed to compare different Blockchains.
+1. Openness: We strongly believe in the power of open-source technology and its ability to drive innovation. All our software and mobile apps are developed with an open-source mindset, allowing for collaboration and contribution from the wider community. We encourage transparency, knowledge-sharing, and the free exchange of ideas to foster a thriving ecosystem.
 
-## Ethereum gas
+2. User-Centricity: Our focus is on creating software and mobile apps that prioritize the user experience. We aim to make the blockchain technology more intuitive, seamless, and user-friendly, removing barriers to entry and enabling individuals to engage with blockchain with ease.
 
-Ethreum gas is the cost paid by users to send transaction on Ethereum blockchain to the Ethereum miners. 
+3. Security and Privacy: We place utmost importance on the security and privacy of our users. Our team is dedicated to implementing robust security measures and following industry best practices to ensure the protection of sensitive data. We strive to create a secure and trustworthy environment for individuals to interact with blockchain technology.
 
+4. Community Engagement: We value the strength of the blockchain community and actively engage with developers, enthusiasts, and stakeholders. We encourage collaboration, feedback, and active participation to co-create solutions that address the real needs of the community. Together, we can shape the future of blockchain technology.
 
+We are excited to have you join us on this journey towards a decentralized and inclusive future. Explore our website to learn more about our projects, get involved in our vibrant community, and contribute to the advancement of blockchain technology. Together, we can build a brighter future powered by blockchain innovation.
+
+Welcome to Web3-Oasis, where we build for the good of the blockchain community!
