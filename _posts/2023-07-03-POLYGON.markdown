@@ -5,6 +5,7 @@ categories: [blockchain, web3]
 tags: [polygon, matic, gas]     # TAG names should always be lowercase
 ---
 
+![Polygon Blockchain](/assets/img/articles/polygon_logo.png)
 
 ## Polygon Gas
 

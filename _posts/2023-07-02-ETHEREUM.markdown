@@ -5,6 +5,7 @@ categories: [blockchain, web3]
 tags: [ethreum, eth, gas]     # TAG names should always be lowercase
 ---
 
+![ETHEREUM Blockchain](/assets/img/articles/ethreum_logo.png)
 
 ## Ethereum Gas
 
