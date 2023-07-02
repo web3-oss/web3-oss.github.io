@@ -5,6 +5,7 @@ categories: [blockchain, web3]
 tags: [binance, bnb, bsc, gas]     # TAG names should always be lowercase
 ---
 
+![BSC Blockchain](/assets/img/articles/bsc_logo.png)
 
 ## Binance smart chain Gas
 
