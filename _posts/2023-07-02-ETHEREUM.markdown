@@ -9,9 +9,28 @@ tags: [ethreum, eth, gas]     # TAG names should always be lowercase
 
 ## Ethereum Gas
 
-A fee denominated in small fractions of ETH required to conduct a transaction on the open-source Ethereum blockchain.
+As the most widely used blockchain platform for decentralized applications (dApps) and smart contracts, Ethereum has introduced a unique gas calculation system to determine transaction costs. Gas plays a fundamental role in ensuring the smooth operation and security of the Ethereum network. In this article, we will dive into the intricacies of gas calculation on the Ethereum blockchain and shed light on how transaction costs are determined.
 
-The Ethereum gas fee exists to pay network validators for their work securing the blockchain and network.
+What is Gas on the Ethereum Blockchain?
+In the Ethereum ecosystem, gas is the unit that measures the computational effort required to perform operations, execute smart contracts, and interact with dApps on the network. Each operation consumes a specific amount of gas, which is denoted in "Gwei" (a fraction of Ether) as the gas price. The total cost of a transaction is calculated by multiplying the gas used by the gas price.
+
+## Factors Affecting Gas Calculation
+Gas calculation on the Ethereum blockchain depends on two main factors:
+
+1. Gas Limit: Every transaction on Ethereum specifies a gas limit, which represents the maximum amount of gas that can be consumed during the transaction. The gas limit acts as a safety mechanism to prevent infinite loops and potential denial-of-service attacks by setting an upper bound on the computational resources used. If a transaction exceeds its gas limit, it will fail and consume all the allocated gas without any changes being made to the blockchain.
+
+2. Gas Price: Gas price determines the cost per unit of gas and is denoted in Gwei. Miners on the Ethereum network prioritize transactions based on the gas price offered. Higher gas prices incentivize miners to include transactions in blocks more quickly, as they receive higher rewards for mining these transactions. When network congestion increases, users may need to set a higher gas price to ensure their transactions are processed promptly.
+
+## Calculating Transaction Costs
+To estimate the cost of a transaction on the Ethereum blockchain, the following calculation is used:
+
+
+> Transaction cost on Ethreum network = Gas Used × Gas Price
+{: .prompt-info }
+
+Gas Used represents the total amount of gas consumed by all operations within a transaction. Each operation, such as sending Ether or executing a smart contract function, requires a specific amount of gas. Ethereum provides a comprehensive list of gas costs for each operation, called the "Ethereum Yellow Paper," which developers can reference when estimating gas usage.
+
+The gas price is set by the user, indicating the maximum price they are willing to pay per unit of gas. Higher gas prices increase the likelihood of faster transaction processing, as miners prioritize transactions with higher gas prices.
 
 Eth gas = gas units(limit) x (base fee + tip or priority fee)
 
@@ -24,10 +43,6 @@ Base fee (max) for next block= Base fee (current) * 12.5%
 With every block the base fee getting burned, a priority fee (tip) introduced via EIP-1559 to incentivize miners for including a transaction in the block.
 
 Based upon Network congestion, the minimum cost to send transaction on Ethereum blockchian varies.
-
-> Transaction cost on Ethreum network.
-{: .prompt-info }
-
 > when network is not busy, Gas cost is low. 
 {: .prompt-tip }
 
@@ -36,3 +51,17 @@ Based upon Network congestion, the minimum cost to send transaction on Ethereum 
 
 > when network is very busy, Gas cost is high.
 {: .prompt-danger }
+
+## Optimizing Gas Usage
+To minimize transaction costs on the Ethereum blockchain, it is crucial to optimize gas usage. Here are some key considerations:
+
+1. Smart Contract Optimization: Efficient coding practices, such as reducing unnecessary computations and storage operations, can significantly reduce gas usage. Writing smart contracts with gas optimization in mind ensures cost-effective execution.
+
+2. Gas Estimation: Before submitting a transaction, users can estimate the gas required using tools like gas estimators or the Ethereum Virtual Machine (EVM) gas estimator functions. These estimates help users set an appropriate gas limit and price for their transactions.
+
+3. Gas Tokenization: Ethereum allows users to pay transaction fees in tokens other than Ether by leveraging gas tokenization solutions. These solutions can provide potential cost savings and flexibility when gas prices are high.
+
+4. Gas Price Monitoring: Monitoring gas prices on the Ethereum network helps users choose the right gas price for their transactions. Various online platforms and wallets provide real-time gas price information, enabling users to make informed decisions.
+
+## Conclusion
+Understanding gas calculation on the Ethereum blockchain is vital for users and developers alike. Gas serves as the measure of computational effort and transaction costs, ensuring the efficient and secure functioning of the Ethereum network. By optimizing gas usage, estimating transaction costs accurately, and staying informed about gas prices, users can navigate the Ethereum ecosystem more effectively and make cost-efficient decisions when interacting with dApps and executing transactions.

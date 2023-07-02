@@ -9,30 +9,36 @@ tags: [binance, bnb, bsc, gas]     # TAG names should always be lowercase
 
 ## Binance smart chain Gas
 
-A fee denominated in small fractions of ETH required to conduct a transaction on the open-source Ethereum blockchain.
+Gas calculation plays a crucial role in determining the transaction costs and fees on blockchain networks. Binance Smart Chain (BSC), a prominent blockchain platform, employs its unique gas model to calculate transaction costs efficiently and transparently. In this article, we will delve into the intricacies of gas calculation on Binance Smart Chain, shedding light on how transaction costs are determined and providing insights into optimizing gas usage.
 
-The Ethereum gas fee exists to pay network validators for their work securing the blockchain and network.
+## Gas Limit and Gas Price:
+Gas calculation on Binance Smart Chain involves two primary components: gas limit and gas price.
 
-Eth gas = gas units(limit) x (base fee + tip or priority fee)
+1. Gas Limit: The gas limit refers to the maximum amount of gas that can be consumed by a specific transaction or smart contract execution. It acts as a safeguard against infinite loops and excessive resource consumption. When initiating a transaction on Binance Smart Chain, users must specify the gas limit, setting an upper bound on the computational resources they are willing to utilize.
 
-The ether gas limit refers to the maximum amount of gas a user can consume to conduct a transaction.The standard limit on an Ethereum gas fee is 21,000 units.
+2. Gas Price: Gas price represents the cost per unit of gas. It determines the fee associated with each unit of computational resource utilized in a transaction or smart contract execution. Users can set the gas price to indicate the amount they are willing to pay per unit of gas consumed.
 
-Base fee acts as a reservation price to include transaction in the block. When the block is mined the base fee is ‘burned’🔥, removing it from circulation.
+## Gas Calculation Formula
+The total transaction cost on Binance Smart Chain is calculated using the following formula:
 
-Base fee (max) for next block= Base fee (current) * 12.5%
+Total Transaction Cost = Gas Limit * Gas Price
 
-With every block the base fee getting burned, a priority fee (tip) introduced via EIP-1559 to incentivize miners for including a transaction in the block.
+By multiplying the gas limit by the gas price, users can determine the exact cost in BNB (Binance Coin) associated with their transaction. It is important to note that the gas price is denominated in Gwei, a fraction of BNB. Therefore, users must be mindful of the conversion between Gwei and BNB when setting the gas price.
 
-Based upon Network congestion, the minimum cost to send transaction on Ethereum blockchian varies.
+## Optimizing Gas Usage
+Optimizing gas usage is essential for minimizing transaction costs and enhancing the efficiency of interactions on Binance Smart Chain. Here are some tips to optimize gas usage:
 
-> Transaction cost on Ethreum network.
-{: .prompt-info }
+1. Gas Limit Estimation: Carefully estimate the gas limit required for your transaction. Setting an excessively high gas limit can result in unnecessary fees, while setting it too low may cause the transaction to fail due to out-of-gas errors. Analyze the complexity of the transaction and adjust the gas limit accordingly.
 
-> when network is not busy, Gas cost is low. 
-{: .prompt-tip }
+2. Gas Price Evaluation: Keep an eye on the current gas price trends on Binance Smart Chain. During periods of high network congestion, gas prices tend to rise. Evaluating gas price variations allows you to choose an optimal gas price that balances transaction speed and cost-effectiveness.
 
-> when network is busy, Gas cost is medium.
-{: .prompt-warning }
+3. Gas Monitoring Tools: Leverage gas monitoring tools and platforms to track real-time gas prices and historical trends. These tools provide valuable insights into network activity, helping you make informed decisions regarding gas price settings and transaction timing.
 
-> when network is very busy, Gas cost is high.
-{: .prompt-danger }
+4. Code Optimization: Efficiently written smart contracts and dApps can significantly reduce gas consumption. Employ best practices, such as minimizing unnecessary computations, optimizing loops, and reducing storage operations. Code optimization not only improves gas efficiency but also enhances overall performance.
+
+5. Batch Transactions: Whenever possible, bundle multiple transactions into a single batch. By submitting multiple transactions together, you can save on gas costs and reduce the number of interactions with the blockchain.
+
+6. Gas Price Alerts: Consider using gas price alert services or applications to notify you when gas prices fall within your desired range. This allows you to execute transactions during periods of lower gas prices, optimizing cost efficiency.
+
+## Conclusion
+Understanding gas calculation on Binance Smart Chain is essential for effectively managing transaction costs and optimizing interactions on the network. By grasping the concepts of gas limit and gas price, users can navigate the Binance Smart Chain ecosystem with confidence. Implementing gas optimization strategies ensures cost-effectiveness and enhances the overall user experience. As the popularity of Binance Smart Chain continues to grow, mastering gas calculation becomes increasingly valuable for developers.
