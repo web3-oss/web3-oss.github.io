@@ -8,31 +8,40 @@ tags: [polygon, matic, gas]     # TAG names should always be lowercase
 ![Polygon Blockchain](/assets/img/articles/polygon_logo.png)
 
 ## Polygon Gas
+As blockchain technology continues to advance, Polygon has emerged as a prominent platform offering scalability, interoperability, and cost-efficiency. Gas calculation plays a crucial role in determining transaction costs and resource allocation on the Polygon blockchain. In this article, we will delve into the gas calculation process on Polygon and explore how it optimizes efficiency and affordability for users.
 
-A fee denominated in small fractions of ETH required to conduct a transaction on the open-source Ethereum blockchain.
+## Understanding Gas on Polygon
+Similar to other blockchain networks, Polygon utilizes a gas model to measure computational effort and determine the cost of transactions and smart contract executions. Gas acts as a unit of measurement for resources consumed during these operations. By incorporating a gas model, Polygon ensures fair allocation of computational resources and prevents abuse of the network.
 
-The Ethereum gas fee exists to pay network validators for their work securing the blockchain and network.
+## Gas Price and Gas Limit:
+On the Polygon blockchain, gas price and gas limit are essential parameters in gas calculation.
 
-Eth gas = gas units(limit) x (base fee + tip or priority fee)
+1. Gas Price: Gas price represents the cost per unit of gas, denominated in the native currency of Polygon (MATIC). The gas price is set by users to indicate the amount they are willing to pay for each unit of gas. Higher gas prices incentivize miners to prioritize the transaction, leading to faster inclusion in blocks.
 
-The ether gas limit refers to the maximum amount of gas a user can consume to conduct a transaction.The standard limit on an Ethereum gas fee is 21,000 units.
+2. Gas Limit: Gas limit determines the maximum amount of gas a user is willing to consume for a specific transaction or smart contract execution. It serves as a safeguard against infinite loops or excessive resource consumption. If the gas limit is reached before the transaction or execution completes, the operation is reverted, and any changes are rolled back.
 
-Base fee acts as a reservation price to include transaction in the block. When the block is mined the base fee is ‘burned’🔥, removing it from circulation.
+## Gas Calculation on Polygon
+To calculate the total cost of a transaction or smart contract execution on Polygon, the gas used is multiplied by the gas price. The gas used is determined by the complexity of the operation and the instructions executed. More intricate operations consume more gas, resulting in higher costs.
 
-Base fee (max) for next block= Base fee (current) * 12.5%
+## Optimizing Gas Efficiency
+Efficient gas usage is crucial for minimizing transaction costs on Polygon. Here are some strategies to optimize gas efficiency:
 
-With every block the base fee getting burned, a priority fee (tip) introduced via EIP-1559 to incentivize miners for including a transaction in the block.
+1. Gas Limit Estimation: It's important to estimate the gas limit accurately based on the complexity of the operation. Setting a gas limit too low may result in out-of-gas errors, while an excessively high limit wastes resources and increases costs. Developers and users should analyze the gas consumption patterns of their operations to set an appropriate gas limit.
 
-Based upon Network congestion, the minimum cost to send transaction on Ethereum blockchian varies.
+2. Gas Price Optimization: Users can optimize gas costs by setting a reasonable gas price. Monitoring gas prices on the Polygon network and adjusting the gas price according to network congestion can help achieve cost savings. Tools and platforms that provide real-time gas price data can assist in making informed decisions.
 
-> Transaction cost on Ethreum network.
-{: .prompt-info }
+3. Gas-Efficient Coding: Writing gas-efficient smart contracts and dApps can significantly reduce transaction costs. Techniques such as code optimization, minimizing storage operations, and avoiding unnecessary calculations contribute to efficient gas usage. Developers should utilize gas profiling tools to identify and optimize gas-intensive code segments.
 
-> when network is not busy, Gas cost is low. 
-{: .prompt-tip }
+4. Batched Transactions: Combining multiple transactions into a single batch can save on gas costs. By bundling multiple operations together, users can reduce the gas overhead associated with each individual transaction.
 
-> when network is busy, Gas cost is medium.
-{: .prompt-warning }
+## Benefits of Gas Calculation on Polygon
+The gas calculation process on Polygon offers several benefits, making it an attractive choice for developers and users:
 
-> when network is very busy, Gas cost is high.
-{: .prompt-danger }
+1. Cost-Efficiency: Polygon's gas calculation mechanism provides users with a cost-efficient blockchain experience. Lower transaction costs enable a broader range of users to participate in decentralized applications, fostering adoption and innovation.
+
+2. Scalability: With Polygon's high throughput capabilities, the gas calculation process supports a large number of transactions, ensuring fast and seamless execution. Users can enjoy quick confirmation times and a smooth user experience even during periods of high network activity.
+
+3. Ecosystem Growth: The affordability of gas costs on Polygon has attracted a diverse ecosystem of developers and projects. This growing ecosystem offers users a wide range of dApps, decentralized finance protocols, and NFT marketplaces to explore and engage with.
+
+## Conclusion
+Gas calculation on the Polygon blockchain plays a vital role in determining transaction costs and resource allocation. By optimizing gas efficiency, users can experience cost savings and faster transaction execution. Polygon's focus on affordability, scalability, and interoperability makes it an appealing choice for developers and users seeking a cost-efficient and user-friendly blockchain platform. Embracing the gas calculation model on Polygon opens up a world of possibilities, enabling a more inclusive and efficient decentralized future.
