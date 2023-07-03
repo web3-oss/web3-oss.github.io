@@ -1,10 +1,10 @@
 ---
-title: Benzin app
-date: 2023-06-30 12:00:00 +0200
-categories: [web3, app]
-tags: [app, ios, android, gas]     # TAG names should always be lowercase
+# the default layout is 'page'
+icon: fas fa-fire
+order: 1
 ---
 
+# Introducing Benzin Mobile App
 
 Introducing "Benzin": Your Real-Time Gas Cost Tracker for Multiple Blockchains
 
