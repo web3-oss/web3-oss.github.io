@@ -1,5 +1,5 @@
 ---
-layout: post
+## layout: home
 icon: fas fa-fire
 order: 5
 ---
