@@ -1,6 +1,7 @@
 ---
+title: Web3-Oasis
 ## layout: page
-icon: fas fa-info-circle
+## icon: fas fa-info-circle
 order: 4
 ---
 

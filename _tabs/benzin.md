@@ -1,6 +1,7 @@
 ---
+title: Benzin
 ## layout: home
-icon: fas fa-info-circle
+## icon: fas fa-info-circle
 order: 5
 ---
 
