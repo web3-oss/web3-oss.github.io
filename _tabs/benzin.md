@@ -1,6 +1,6 @@
 ---
 ## layout: home
-icon: fas fa-fire
+icon: fas fa-info-circle
 order: 5
 ---
 
