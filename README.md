@@ -5,8 +5,9 @@ web3-oasis.github.io
 githubpage
 
 ## CHIRPY Documentation
-URL: https://chirpy.cotes.page/
-URL: https://www.markdownguide.org/tools/jekyll/
+Documentation: https://chirpy.cotes.page/
+Mardown guide: https://www.markdownguide.org/tools/jekyll/
+Github: https://github.com/cotes2020/jekyll-theme-chirpy
 
 ## webpage
 URL: https://web3-oss.github.io/
