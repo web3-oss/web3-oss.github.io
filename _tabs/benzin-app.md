@@ -33,4 +33,4 @@ Benzin stands out as the go-to app for anyone actively participating in blockcha
 
 Download Benzin today and join the community of blockchain enthusiasts who are taking control of their gas costs. Stay ahead of the curve, make smarter decisions, and unlock the full potential of blockchain technology with Benzin, your ultimate gas cost tracker for multiple blockchains.
 
-## Privacy policy: <https://web3-oss.github.io/posts/PRIVACY/>
+## Privacy policy [here] (https://web3-oss.github.io/posts/PRIVACY/ "privacy policy")
