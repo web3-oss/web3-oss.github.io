@@ -1,7 +1,7 @@
 ---
 title: Benzin App
 layout: page
-## icon: fas fa-info-circle
+icon: fas fa-fire
 order: 1
 ---
 
