@@ -11,6 +11,51 @@ Introducing "Benzin Mobile App": Your Real-Time Gas Cost Tracker for Multiple Bl
 
 Benzin is a cutting-edge mobile application designed to provide users with real-time information on gas costs across various blockchain networks. With Benzin, you can effortlessly track and compare gas prices on different blockchains, empowering you to make informed decisions when interacting with decentralized applications (dApps) and executing transactions.
 
+<html>
+
+<head>
+
+<style>
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify content: space-between;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.app_screen {
+  padding: 0 10px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+</style>
+
+</head>
+
+<body>
+<div class="flex-container">
+  <div class="app_screen">
+    <img src="/assets/img/carousel/app_screen_1.jpg" alt="app_screen_1" class="pic">
+  </div>
+  <div class="app_screen">
+    <img src="/assets/img/carousel/app_screen_2.jpg" alt="app_screen_2" class="pic">
+  </div>
+  <div class="app_screen">
+    <img src="/assets/img/carousel/app_screen_3.jpg" alt="app_screen_3" class="pic">
+  </div>
+</div>
+
+</body>
+
+</html>
+
 ## Key Features
 
 1. Live Gas Price Updates: Benzin fetches live gas price data from multiple blockchain networks, ensuring that you have the most up-to-date information at your fingertips. Stay informed about the current gas costs on Ethereum, Binance Smart Chain, Solana, Polygon, and other popular blockchains, all in one place.
@@ -32,5 +77,9 @@ Benzin is a cutting-edge mobile application designed to provide users with real-
 Benzin stands out as the go-to app for anyone actively participating in blockchain networks. Whether you are a developer, a trader, or a decentralized finance enthusiast, Benzin equips you with the real-time information needed to optimize your blockchain interactions, reduce transaction costs, and enhance your overall experience.
 
 Download Benzin today and join the community of blockchain enthusiasts who are taking control of their gas costs. Stay ahead of the curve, make smarter decisions, and unlock the full potential of blockchain technology with Benzin, your ultimate gas cost tracker for multiple blockchains.
+
+## Download from [Google play store](https://play.google.com/store/apps/details?id=com.web3.benzin)
+
+![Benzin mobile app](/assets/img/carousel/app_download_benzin_qr_code.jpg)
 
 ### Privacy policy [here]({% link _posts/2023-07-05-PRIVACY.md %})
