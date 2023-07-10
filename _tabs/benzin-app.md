@@ -11,10 +11,6 @@ Introducing "Benzin Mobile App": Your Real-Time Gas Cost Tracker for Multiple Bl
 
 Benzin is a cutting-edge mobile application designed to provide users with real-time information on gas costs across various blockchain networks. With Benzin, you can effortlessly track and compare gas prices on different blockchains, empowering you to make informed decisions when interacting with decentralized applications (dApps) and executing transactions.
 
-<html>
-
-<head>
-
 <style>
 
 .flex-container {
@@ -37,9 +33,6 @@ Benzin is a cutting-edge mobile application designed to provide users with real-
 }
 </style>
 
-</head>
-
-<body>
 <div class="flex-container">
   <div class="app_screen">
     <img src="/assets/img/carousel/app_screen_1.jpg" alt="app_screen_1" class="pic">
@@ -51,10 +44,6 @@ Benzin is a cutting-edge mobile application designed to provide users with real-
     <img src="/assets/img/carousel/app_screen_3.jpg" alt="app_screen_3" class="pic">
   </div>
 </div>
-
-</body>
-
-</html>
 
 ## Key Features
 
