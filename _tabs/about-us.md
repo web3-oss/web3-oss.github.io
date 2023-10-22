@@ -2,7 +2,7 @@
 title: About Us
 ## layout: page
 icon: fas fa-info-circle
-order: 2
+order: 3
 ---
 
 web3-oasis is an organization commited to build open source softwares and apps for the web3 community. This is an attempt to build series of ios/android apps and web3 softwares to provide service to web3 builders and users. 
