@@ -1,13 +1,13 @@
 ---
-title: Space Console
+title: Space console 
 layout: page
-icon: fas fa-fire
+icon: fas fa-terminal
 order: 2
 ---
 
-![Space console webpage](/assets/img/articles/benzin_banner.png)
+![Space console](/assets/img/articles/spaceConsole_banner.png)
 
-Introducing "Benzin Mobile App": Your Real-Time Gas Cost Tracker for Multiple Blockchains
+Introducing "Space console": Your Real-Time Gas Cost Tracker for Multiple Blockchains
 
 Benzin is a cutting-edge mobile application designed to provide users with real-time information on gas costs across various blockchain networks. With Benzin, you can effortlessly track and compare gas prices on different blockchains, empowering you to make informed decisions when interacting with decentralized applications (dApps) and executing transactions.
 
@@ -21,7 +21,7 @@ Benzin is a cutting-edge mobile application designed to provide users with real-
   justify-content: space-around;
 }
 
-.app_screen {
+.dashboard {
   padding: 0 10px;
 }
 
@@ -34,14 +34,8 @@ Benzin is a cutting-edge mobile application designed to provide users with real-
 </style>
 
 <div class="flex-container">
-  <div class="app_screen">
-    <img src="/assets/img/carousel/app_screen_1.jpg" alt="app_screen_1" class="pic">
-  </div>
-  <div class="app_screen">
-    <img src="/assets/img/carousel/app_screen_2.jpg" alt="app_screen_2" class="pic">
-  </div>
-  <div class="app_screen">
-    <img src="/assets/img/carousel/app_screen_3.jpg" alt="app_screen_3" class="pic">
+  <div class="dashboard">
+    <img src="/assets/img/dashboard/dashboard_1.png" alt="dashbord_1" class="pic">
   </div>
 </div>
 
@@ -61,14 +55,14 @@ Benzin is a cutting-edge mobile application designed to provide users with real-
 
 7. Educational Resources: Benzin provides educational resources and guides on gas fees, blockchain networks, and transaction optimization. Whether you're a novice or an experienced blockchain user, these resources will help deepen your understanding of gas costs and empower you to make informed decisions.
 
-## Why Choose Benzin?
+## Why use Space console ?
 
 Benzin stands out as the go-to app for anyone actively participating in blockchain networks. Whether you are a developer, a trader, or a decentralized finance enthusiast, Benzin equips you with the real-time information needed to optimize your blockchain interactions, reduce transaction costs, and enhance your overall experience.
 
 Download Benzin today and join the community of blockchain enthusiasts who are taking control of their gas costs. Stay ahead of the curve, make smarter decisions, and unlock the full potential of blockchain technology with Benzin, your ultimate gas cost tracker for multiple blockchains.
 
-## Download from [Google play store](https://play.google.com/store/apps/details?id=com.web3.benzin)
+## Go to Dashboard [Space console](https://play.google.com/store/apps/details?id=com.web3.benzin)
 
-![Benzin mobile app](/assets/img/carousel/app_download_benzin_qr_code.jpg)
+![Space console](/assets/img/carousel/app_download_benzin_qr_code.jpg)
 
 ### Privacy policy [here]({% link _posts/2023-07-05-PRIVACY.md %})
